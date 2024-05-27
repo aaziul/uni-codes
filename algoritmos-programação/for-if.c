@@ -44,11 +44,9 @@ da cada uma. Ao final, o programa deve informar:
 - A quantidade de pessoas que recebe menos do que R$ 2.000,00
 - O numero total de mulheres entrevistadas */
 
-    int idade, numPessoas, salario, i, n = 1, quantF, quantS, somaIdades;
+    int idade, numPessoas, salario, i, n = 1, quantF = 0, quantS = 0, somaIdades = 0;
     float mediaIdade;
     char genero;
-    somaIdades = 0;
-    quantF = 0;
 
     printf("Entre o numero de pessoas entrevistadas: ");
     scanf("%d", &numPessoas);
