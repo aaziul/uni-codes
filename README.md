@@ -1,4 +1,4 @@
-<h1>Faculdade</h1>
+<h1>faculdade</h1>
 <p>Arquivo com códigos desenvolvidos durante o curso de Ciência da Computação.</p>
 
 [Atualizações no repositório em andamento]
