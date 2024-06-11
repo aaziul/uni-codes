@@ -47,7 +47,7 @@ void alugarLivro(ALUGUEL alugueis[], int *qtdAlugueis){
     scanf("%d", &diaEntrega);
     printf("Insira o mes de entrega: ");
     scanf("%d", &mesEntrega);
-    printf("Insira o preço por diaria: ");
+    printf("Insira o preco por diaria: ");
     scanf("%f", &precoDiaria);
 
     // verifica se o cliente já possui um aluguel
