@@ -1,4 +1,4 @@
-/* Atividade desenvolvida em Avaliação */
+/* Atividade desenvolvida em avaliação, pode conter erros e/ou estar incompleta, código realizado sem a possibilidade de testes */
 /* Luiza Souto - 21/02/2024
     OBJETIVO: desenvolver um programa que recebe do usuário valores para uma imagem RGB e após, solicita qual método o usuário gostaria de utilizar, sendo estes os seguintes:
         1. Método do Máximo Canal: o valor de cada pixel na imagem em escala de cinza é determinado selecionando o canal de cor com o valor mais alto entre os canais RGB do pixel original;
