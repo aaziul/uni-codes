@@ -1,4 +1,4 @@
-/* CONTEÚDO DE AVALIAÇÃO */
+/* Atividade desenvolvida em avaliação, pode conter erros e/ou estar incompleta, código realizado sem a possibilidade de testes */
 /*OBJETIVO: ler do usuário o número de linhas e de colunas da imagem que será lida e a imagem em si, em seguida as coordenadas X e Y e a largura e a altura que serão consideradas no filtro. Por fim, aplicar a função filtra utilizando as informações lidas e imprimir a imagem resultante. O código solicita também as seguintes funções:
                     1. leImagem: lê do usuário os valores da imagem inicial;
                     2. imprimeImagem: imprime os valores da matriz na tela;
