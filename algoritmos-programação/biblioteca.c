@@ -47,7 +47,7 @@ void alugarLivro(ALUGUEL alugueis[], int *qtdAlugueis){
     scanf("%d", &diaEntrega);
     printf("Insira o mes de entrega: ");
     scanf("%d", &mesEntrega);
-    printf("Insira o preço por diária: ");
+    printf("Insira o preço por diaria: ");
     scanf("%f", &precoDiaria);
 
     // verifica se o cliente já possui um aluguel
@@ -85,6 +85,33 @@ void imprimeCliente(ALUGUEL alugueis[], int qtdAlugueis){
     }
 }
 
+// verificar livros em atraso
+void verificarLivrosAtraso(ALUGUEL alugueis[], int qtdAlugueis){
+    int i = 0; // contador
+    int diaAtual, mesAtual; // dia e mes atuais
+    int diasAtraso; // dias de atraso
+    float multa; // valor da multa
+
+    // recebe a data atual
+    printf("Insira o dia atual: ");
+    scanf("%d", &diaAtual);
+    printf("Insira o mes atual: ");
+    scanf("%d", &mesAtual);
+
+    // compara a data de entrega com a data atual
+    for(i = 0; i < qtdAlugueis; i++){
+        if(alugueis[i].mesEntrega == mesAtual){
+            diasAtraso = diaAtual - alugueis[i].diaEntrega;
+            if(diasAtraso > 0){
+                multa = diasAtraso * alugueis[i].precoDiaria;
+                printf("ID do cliente: %d\n", alugueis[i].idCliente);
+                printf("Nome do livro: %s\n", alugueis[i].nomeLivro);
+                printf("Valor da multa: %.2f\n", multa);
+            }
+        }
+    }
+}
+
 // FUNÇÃO PRINCIPAL
 
 int main(){
@@ -98,7 +125,7 @@ int main(){
         printf("2. Verificar livros em atraso\n");
         printf("3. Imprimir todos os alugueis\n");
         printf("4. Sair\n");
-        printf("Escolha uma opção: ");
+        printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
 
         // escolha da opção
@@ -107,7 +134,7 @@ int main(){
                 alugarLivro(alugueis, &qtdAlugueis);
                 break;
             case 2:
-                // verificarLivrosAtraso(alugueis, qtdAlugueis);
+                verificarLivrosAtraso(alugueis, qtdAlugueis);
                 break;
             case 3:
                 imprimeCliente(alugueis, qtdAlugueis);
