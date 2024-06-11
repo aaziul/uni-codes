@@ -69,7 +69,7 @@ void alugarLivro(ALUGUEL alugueis[], int *qtdAlugueis){
         printf("Aluguel realizado com sucesso!\n");
         printf("Custo do aluguel: %.2f\n", (diaEntrega * precoDiaria));
     } else {
-        printf("Erro: Cliente já possui um aluguel.\n");
+        printf("Erro: Cliente ja possui um aluguel\n");
     }
 }
 
@@ -116,7 +116,7 @@ int main(){
                 printf("Saindo...\n");
                 break;
             default:
-                printf("Opção inválida.\n");
+                printf("Opcao invalida.\n");
         }
     } while(opcao != 4);
 
