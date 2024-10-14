@@ -12,7 +12,7 @@
 1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,524288,1048576,... </li>
 <li> <b>KNUTH:</b>
 1,4,13,40,121,364,1093,3280,9841,29524,88573,265720,797161,2391484,... </li>
-<li> <b>CIURA:</b> A sequencia proposta por Ciura(https://oeis.org/A102549), que e composta dos seguintes números:
+<li> <b>CIURA:</b> A sequencia proposta por Ciura (https://oeis.org/A102549), que é composta dos seguintes números:
 1,4,10,23,57,132,301,701,1577,3548,7983,17961,40412,90927,204585,460316,1035711,... </li>
 </ol>
 <p>Para cada execução do algoritmo de ShellSort com uma dada sequência e um tamanho de vetor n, identifique no vetor correspondente a sequencia a entrada que contem o maior valor menor que o tamanho do vetor n. Por exemplo, para um vetor com 1 milhão de elementos, o maior valor na sequência de SHELL é 524588, na de KNUTH 797161 e na de CIURA 460316. Inicie a execução do ShellSort com esse número encontrado como incremento. Para as próximas exceuções, use o valor anterior na sequencia sucessivamente, ate a ultima chamada com incremento de 1.</p>
