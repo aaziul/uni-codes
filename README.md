@@ -11,5 +11,5 @@
 
 <li>Na pasta <a href="https://github.com/aaziul/faculdade/tree/main/grafos-e-analise-combinatoria">'Grafos e Análise Combinatória'</a> há alguns desafios que foram realizados via Beecrowd Academic dos conteudos de Análise Combinatória e Teoria dos Grafos.</li>
 
-<li>Na pasta <a href="https://github.com/aaziul/faculdade/tree/main/cpd">'cpd'</a> há códigos de laboratórios realizados durante o semestre da disciplina, juntamente ocm seus respectivos desafios extras do Beecrowd.</li>
+<li>Na pasta <a href="https://github.com/aaziul/faculdade/tree/main/cpd">'CPD'</a> há códigos de laboratórios realizados durante o semestre da disciplina Classificação e Processamento de Dados, juntamente ocm seus respectivos desafios extras do Beecrowd.</li>
 </ul>
