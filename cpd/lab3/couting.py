@@ -6,8 +6,8 @@ def contPalavras(arqEntrada, arqSaida):
         with open(arqEntrada, 'r', encoding='utf-8') as arq:
             texto = arq.read()
 
-        # separa as palavras, remove pontuacao e deixa minuscula
-        palavras = texto.lower().split()
+        # separa as palavras, remove pontuacao
+        palavras = texto.split()
         palavras = [palavra.strip('.,!?;:"()[]') for palavra in palavras]
 
         # conta ocorrencias de cada palavra
