@@ -16,7 +16,7 @@ Implementar o algoritmo Radix Sort para ordenação de strings e usá-lo para re
 ### TAREFA 1.4: Top 2000 palavras mais frequentes
 * Usando os arquivos os arquivos `'frankstein_counted.txt'` e `'war_and_peace_counted.txt'` da tarefa anterior, gere um ranking com as 2000 palavras mais frequentes de cada livro. Este ranking deve ordenar as palavras mais frequentes às menos frequentes. Para duas palavras com mesmo número de ocorrências, imprima elas no ranking em ordem lexicográfica. Gere os arquivos `'frankstein_ranked.txt'` e `'war_and_peace_ranked.txt'`.
 
-# ARQUIVOS ENVIADOS
+# ARQUIVOS
 * **pasta 'entradas':** pasta com os arquivos de texto para entrada teste para os programas e arquivos texto das obras literárias;
 * **'bee1244.py':** código de resolução do problema 1244 do Beecrowd;
 * **'radix.py':** código referente a tarefa 1.1 e 1.2 do laboratório;
