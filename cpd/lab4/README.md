@@ -1,4 +1,5 @@
 # LABORATÓRIO 4 - TABELAS HASH
+Luiza Ferras Souto
 
 ## OBJETIVO
 Implementar uma Tabela Hash, com diferentes tamanhos de tabelas (M), que deve armazenar registros compostos de uma chave identificadora e dados satélites associados. Para a implementação da Tabela Hash, devemos:
