@@ -188,3 +188,4 @@ if __name__ == "__main__":
     tagTeste2 = 'Team Player'
     print(f"\nconsulta por tags ({tagTeste1} e {tagTeste2}):")
     print(consultaTags([tagTeste1, tagTeste2]))
+

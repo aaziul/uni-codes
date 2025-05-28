@@ -1,0 +1,14 @@
+let 
+	true = \a b. a;
+	false = \a b. b;
+	if = \b e1 e2. b e1 e2;
+	and = \b1 b2. if b1 b2 false;
+	isZero = \n. n (\x. false) true;
+ 	succ = \n. (\A B. A (n A B)); 
+	pair = \A B. (\c. c A B); 
+  	fst = \p. p true; 
+  	snd = \p. p false; 
+  	shiftInc = \p. pair (snd p) (succ (snd p));
+ 	sub = \n1 n2. n2 pred n1;
+	pred = \n. fst (n shiftInc (pair 0 0));
+	igual = \m. \n. and(isZero(sub m n)) (isZero(sub n m));

@@ -11,3 +11,7 @@
 * Na pasta ['Grafos e Análise Combinatória'](https://github.com/aaziul/faculdade/tree/main/grafos-e-analise-combinatoria) há alguns desafios que foram realizados via Beecrowd Academic dos conteudos de Análise Combinatória e Teoria dos Grafos.
 
 * Na pasta ['CPD'](https://github.com/aaziul/faculdade/tree/main/cpd) há códigos de laboratórios realizados durante o semestre da disciplina Classificação e Pesquisa de Dados, juntamente com seus respectivos desafios extras do Beecrowd.
+
+* Na pasta ['TeoComp'](https://github.com/aaziul/faculdade/tree/main/teocomp) há códigos realizados durante o semestre de Teoria da Computação, com Máquina Norma, Cálculo Lambda e Máquina de Turing.
+
+* Na pasta ['FBD'](https://github.com/aaziul/faculdade/tree/main/fbd) há laboratórios realizados em aula de Banco de Dados com SQL, testado no PostgresSQL.
