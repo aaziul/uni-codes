@@ -1,17 +1,25 @@
-# faculdade
+# 📚 University
 
-### Arquivo com códigos desenvolvidos durante o curso de Ciência da Computação.
+Repository containing code developed throughout my Computer Science degree.  
+**[Repository updates in progress]**
 
-[Atualizações no repositório em andamento]
+## Racket
+Used in the course *Fundamentals of Algorithms*, the Racket language was implemented using the DrRacket application and its official documentation ([https://docs.racket-lang.org/](https://docs.racket-lang.org/)) for reference and clarification. Support from classmates and professors was also essential.
 
-* Para a linguagem Racket utilizada na disciplina ['Fundamentos de Algoritmos'](https://github.com/aaziul/faculdade/tree/main/fundamentos-de-algoritmos) foi utilizado o aplicativo DrRacket e documentação (https://docs.racket-lang.org/) do mesmo para tirar dúvidas e esclarecimentos, também foi utilizado suporte de colegas e professores.
+## C Language
+Used in the courses *Algorithms and Programming* and *Data Structures*, code was written in the Code::Blocks and VSCode development environments. Questions were resolved through online research and assistance from professors and classmates.
 
-* Para a linguagem C, utilizada nas disciplinas ['Algoritmos e Programação'](https://github.com/aaziul/faculdade/tree/main/algoritmos-programa%C3%A7%C3%A3o) e ['Estrutura de Dados'](https://github.com/aaziul/faculdade/tree/main/estrutura-de-dados), os códigos foram digitados nos ambientes de desenvolvimento CodeBlocks e VSCode. Dúvidas foram tiradas com pesquisas na internet e com professores e colegas em sala de aula.
+## GTC
+This folder contains some challenges solved through Beecrowd Academic, related to Combinatorics and Graph Theory topics.
 
-* Na pasta ['Grafos e Análise Combinatória'](https://github.com/aaziul/faculdade/tree/main/grafos-e-analise-combinatoria) há alguns desafios que foram realizados via Beecrowd Academic dos conteudos de Análise Combinatória e Teoria dos Grafos.
+## DCS
+This folder contains lab activities developed during the *Data Classification and Search* course, along with extra challenges from Beecrowd.
 
-* Na pasta ['CPD'](https://github.com/aaziul/faculdade/tree/main/cpd) há códigos de laboratórios realizados durante o semestre da disciplina Classificação e Pesquisa de Dados, juntamente com seus respectivos desafios extras do Beecrowd.
+## TC
+This folder includes code developed during the *Theory of Computation* course, involving Norma Machine, Lambda Calculus, and Turing Machine.
 
-* Na pasta ['TeoComp'](https://github.com/aaziul/faculdade/tree/main/teocomp) há códigos realizados durante o semestre de Teoria da Computação, com Máquina Norma, Cálculo Lambda e Máquina de Turing.
+## DB
+This folder includes SQL labs from the *Database Fundamentals* course, tested using PostgreSQL.
 
-* Na pasta ['FBD'](https://github.com/aaziul/faculdade/tree/main/fbd) há laboratórios realizados em aula de Banco de Dados com SQL, testado no PostgresSQL.
+## Assembly
+This folder contains Assembly language code developed for the *Computer Architecture I* course. Projects and exercises were written to explore low-level operations, using instruction sets and addressing modes studied throughout the semester.
