@@ -1,0 +1,13 @@
+========  ESTATÍSTICAS ABP ============
+Numero de Nodos: 339 
+Altura: 16 
+Rotações: 0 
+Comparações: 89569 
+
+
+========  ESTATÍSTICAS AVL ============
+Numero de Nodos: 339 
+Altura: 10 
+Rotações: 150 
+Comparações: 75240 
+
