@@ -1,0 +1,48 @@
+name: Compliance Pipeline
+
+on:
+  push:
+    branches: "*"
+  pull_request:
+    branches: [ main, develop ]
+    types: [opened, edited, synchronize]
+
+jobs:
+  compliance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: PullRequest Title Validation
+        if: github.event_name == 'pull_request'
+        run: |
+          TITLE="${{ github.event.pull_request.title }}"
+          REGEX="^(FEAT|DOC|FIX|TEST):"
+          if [[ ! $TITLE =~ $REGEX ]]; then
+            echo "ERROR: PR title '$TITLE' does not follow the pattern 'FEAT|DOC|FIX|TEST:'"
+            exit 1
+          fi
+          echo "PASSED"
+
+      - name: Commit Messages Validation
+        run: |
+          REGEX="^(FEAT|FIX|DOC|TEST):"
+          
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            commits=$(git log $BASE_SHA..HEAD --format=%s)
+          else
+            commits=$(git log -1 --format=%s)
+          fi
+
+          while IFS= read -r line; do
+            if [[ -n "$line" && ! $line =~ $REGEX ]]; then
+              echo "ERROR: Invalid commit message: '$line'"
+              echo "Must start with: 'FEAT|FIX|DOC|TEST:'"
+              exit 1
+            fi
+          done <<< "$commits"
+          echo "PASSED"

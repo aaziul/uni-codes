@@ -1,0 +1,61 @@
+id_lote,produto,categoria,data_validade,temperatura_registro
+401,Costela Suína,Carnes,21/05/2026,2.9
+402,Queijo Prato,Laticinios,27/05/2026,4.5
+403,Iogurte Natural,Laticinios,12/06/2026,10.5
+404,Arroz Branco 5kg,Graos,20/11/2026,19.9
+405,Queijo Prato,Laticinios,23/05/2026,6.9
+406,Frango Resfriado,Carnes,25/05/2026,3.2
+407,Requeijão,Laticinios,08/06/2026,8.6
+408,Frango Resfriado,Carnes,07/03/2027,3.4
+409,Macarrão,Graos,17/05/2026,2.8
+410,Alface Crespa,Hortifruti,27/05/2026,5.8
+411,Iogurte Natural,Laticinios,18/07/2026,10.1
+412,Cenoura,Hortifruti,18/01/2027,24.0
+413,Tomate Italiano,Hortifruti,12/05/2026,3.1
+414,Frango Resfriado,Carnes,27/05/2026,4.8
+415,Requeijão,Laticinios,17/06/2026,8.1
+416,Tomate Italiano,Hortifruti,03/10/2026,15.7
+417,Queijo Prato,Laticinios,10/05/2026,4.6
+418,Costela Suína,Carnes,26/05/2026,3.1
+419,Iogurte Natural,Laticinios,19/07/2026,14.1
+420,Maçã Gala,Hortifruti,10/10/2026,22.8
+421,Alface Crespa,Hortifruti,10/05/2026,2.5
+422,Cenoura,Hortifruti,26/05/2026,4.1
+423,Leite Integral,Laticinios,16/07/2026,12.3
+424,Tomate Italiano,Hortifruti,09/07/2026,19.0
+425,Frango Resfriado,Carnes,12/05/2026,3.0
+426,Alface Crespa,Hortifruti,26/05/2026,2.9
+427,Manteiga,Laticinios,18/06/2026,13.7
+428,Macarrão,Graos,16/03/2027,16.0
+429,Leite Integral,Laticinios,23/05/2026,5.8
+430,Feijão Preto 1kg,Graos,26/05/2026,4.4
+431,Iogurte Natural,Laticinios,28/06/2026,13.9
+432,Macarrão,Graos,09/06/2026,24.9
+433,Carne Moída,Carnes,13/05/2026,4.1
+434,Alface Crespa,Hortifruti,25/05/2026,3.5
+435,Leite Integral,Laticinios,10/07/2026,12.8
+436,Lentilha,Graos,07/07/2026,15.5
+437,Alface Crespa,Hortifruti,09/05/2026,6.8
+438,Iogurte Natural,Laticinios,25/05/2026,5.0
+439,Iogurte Natural,Laticinios,28/06/2026,8.9
+440,Alface Crespa,Hortifruti,28/06/2026,21.2
+441,Cenoura,Hortifruti,23/05/2026,3.3
+442,Frango Resfriado,Carnes,26/05/2026,4.0
+443,Queijo Prato,Laticinios,02/07/2026,10.1
+444,Arroz Branco 5kg,Graos,28/01/2027,21.2
+445,Leite Integral,Laticinios,17/05/2026,3.1
+446,Frango Resfriado,Carnes,26/05/2026,6.4
+447,Iogurte Natural,Laticinios,26/06/2026,9.9
+448,Costela Suína,Carnes,09/11/2026,2.3
+449,Requeijão,Laticinios,13/05/2026,6.7
+450,Iogurte Natural,Laticinios,26/05/2026,2.6
+451,Leite Integral,Laticinios,20/07/2026,11.6
+452,Carne Moída,Carnes,23/09/2026,3.0
+453,Lentilha,Graos,17/05/2026,4.4
+454,Leite Integral,Laticinios,27/05/2026,4.1
+455,Queijo Prato,Laticinios,05/06/2026,8.1
+456,Lentilha,Graos,29/08/2026,22.4
+457,Tomate Italiano,Hortifruti,10/05/2026,2.4
+458,Arroz Branco 5kg,Graos,26/05/2026,4.9
+459,Iogurte Natural,Laticinios,30/06/2026,8.9
+460,Carne Moída,Carnes,28/06/2026,4.3
