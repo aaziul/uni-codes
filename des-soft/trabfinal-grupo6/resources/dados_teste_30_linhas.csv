@@ -1,0 +1,31 @@
+id_lote,produto,categoria,data_validade,temperatura_registro
+401,Alface Crespa,Hortifruti,16/05/2026,4.9
+402,Iogurte Natural,Laticinios,27/05/2026,4.1
+403,Queijo Prato,Laticinios,12/06/2026,9.5
+404,Frango Resfriado,Carnes,25/07/2026,0.7
+405,Carne Moída,Carnes,18/05/2026,3.3
+406,Manteiga,Laticinios,27/05/2026,2.6
+407,Manteiga,Laticinios,08/06/2026,11.6
+408,Cenoura,Hortifruti,14/09/2026,22.0
+409,Iogurte Natural,Laticinios,21/05/2026,3.4
+410,Iogurte Natural,Laticinios,25/05/2026,3.9
+411,Manteiga,Laticinios,13/07/2026,13.4
+412,Lentilha,Graos,06/12/2026,17.1
+413,Costela Suína,Carnes,23/05/2026,5.4
+414,Requeijão,Laticinios,27/05/2026,2.9
+415,Iogurte Natural,Laticinios,13/06/2026,11.1
+416,Costela Suína,Carnes,20/03/2027,-0.5
+417,Frango Resfriado,Carnes,12/05/2026,6.1
+418,Carne Moída,Carnes,26/05/2026,2.3
+419,Requeijão,Laticinios,18/07/2026,10.1
+420,Maçã Gala,Hortifruti,27/12/2026,23.8
+421,Alface Crespa,Hortifruti,13/05/2026,2.7
+422,Costela Suína,Carnes,27/05/2026,4.1
+423,Requeijão,Laticinios,28/06/2026,10.4
+424,Macarrão,Graos,24/07/2026,22.6
+425,Iogurte Natural,Laticinios,19/05/2026,2.8
+426,Tomate Italiano,Hortifruti,26/05/2026,3.9
+427,Manteiga,Laticinios,06/07/2026,9.7
+428,Tomate Italiano,Hortifruti,05/08/2026,21.8
+429,Costela Suína,Carnes,14/05/2026,2.6
+430,Alface Crespa,Hortifruti,26/05/2026,2.0
