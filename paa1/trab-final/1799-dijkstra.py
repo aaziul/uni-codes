@@ -1,6 +1,6 @@
 # Luiza Souto
 # 31/05/2026
-# python3 1799-dijkstra.py < 1799-test.txt || python3 1799-dijkstra.py < 1799-test2.txt -> testes
+# python3 1799-dijkstra.py < 1799-test.txt || python3 1799-dijkstra.py < 1799-test2.txt 
 
 import heapq
 from collections import defaultdict
