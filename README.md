@@ -23,3 +23,9 @@ This folder includes SQL labs from the [*Database Fundamentals*](https://github.
 
 ## Assembly
 This folder contains [Assembly](https://github.com/aaziul/uni-codes/tree/main/assembly) language code developed for the *Computer Architecture I* course. Projects and exercises were written to explore low-level operations, using instruction sets and addressing modes studied throughout the semester.
+
+## Project and Analysis of Algorithms 1
+This folder contains challenge assignments and the final project for the [Project and Analysis of Algorithms 1](https://github.com/aaziul/uni-codes/tree/main/paa1) course.
+
+## Software Development
+This folder contains code for activities completed during the [Software Development](https://github.com/aaziul/uni-codes/tree/main/des-soft) course, built with Java. It also includes the group final project for the course.
